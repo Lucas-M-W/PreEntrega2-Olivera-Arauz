@@ -74,6 +74,20 @@ body {
     background-image:url(../medios/losGods.jpg) ;
 }
 
+.logo {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-doom {
+    width: 450px;
+    height: 350px;
+}
+
+
+
+
 /* CONTENIDO */
 .titulo {
     display: flex;
