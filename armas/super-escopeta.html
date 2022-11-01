@@ -22,30 +22,61 @@
         <div class="logo">
             <img class="logo-doom" src="../medios/logo-doom-eternal.png" alt="imagen del logo">
         </div>
+        <!-- NAV BAR -->
         <div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../apartados/general.html">General</a></li>
-                    <li><a href="">Guías</a></a>
-                        <ul>
-                            <li><a href="../combos/combos.html">Combos</a></li>
-                            <li><a href="#">Armas</a></li>
-                                <ul>
-                                    <li><a href="escopeta-de-combate.html">Escopeta de comabte</a></li>
-                                    <li><a href="cañon-pesado.html">Cañon pesado</a></li>
-                                    <li><a href="rifle-de-plasma.html">Rifle de plasma</a></li>
-                                    <li><a href="lanzacohetes.html">Lanzacohetes</a></li>
-                                    <li><a href="super-escopeta.html">Super Escopeta</a></li>
-                                    <li><a href="balista.html">Balista</a></li>
-                                    <li><a href="ametralladoras.html">Ametralladora</a></li>
-                                </ul>
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <img src="../medios/logo-chikito.png" alt="Bootstrap" width="80" height="55">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../apartados/general.html">General</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../apartados/info.html">Lore</a>
+                          </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Guias
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="../combos/combos.html">Combos</a></li>
+                            <li><a class="dropdown-item" href="#">Armas</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
                             </li>
-                        </ul>    </li>
-                    <li><a href="../apartados/info.html">Lore</a></li>
-                </ul>
-            </nav>
-            </div>
+                            <li><a class="dropdown-item" href="escopeta-de-combate.html">Escopeta de Combate</a></li>
+                        </li>
+                            <li><a class="dropdown-item" href="cañon-pesado.html">Cañon Pesado</a></li>
+                        </li>
+                            <li><a class="dropdown-item" href="rifle-de-plasma.html">Rifle de Plasma</a></li>
+                        </li>
+                            <li><a class="dropdown-item" href="lanzacohetes.html">Lanzacohetes</a></li>
+                        </li>
+                            <li><a class="dropdown-item" href="#">Super Escopeta</a></li>
+                        </li>
+                            <li><a class="dropdown-item" href="balista.html">Balista</a></li>
+                        </li>
+                            <li><a class="dropdown-item" href="ametralladoras.html">Ametralladora</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+    </div>
     </header>
     <div class="titulo">
         <img class="slayerMark" src="../medios/slayer-mark.png" alt="slayer mark">
