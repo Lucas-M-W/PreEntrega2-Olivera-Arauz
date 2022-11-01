@@ -12,15 +12,17 @@ body {
 }
 
 .logo {
-    height: 600px;
     display: flex;
     justify-content: center;
 }
 
+
 .logo-doom {
-    width: 450px;
-    height: 350px;
+    width: 25vw;
+    margin-bottom: 15vw;
+    margin-top: 0.3vw;
 }
+
 
 
 
@@ -48,12 +50,25 @@ main a {
 }
 
 /* FOOTER */
+.footer {
+    font-family: 'Russo One', sans-serif;
+    transition: 70ms;
+}
 
+.footer a:hover {
+    font-size: 115%;
+    transition: 70ms;
+}
 
 
 /* FORMULARIO */
 .formulario {
     margin-bottom: 10px;
+}
+
+/* ESCOPETA DE COMBATE */
+.baseshotgun {
+    width: 500px;
 }
 
 /* CAÑON PESADO */
@@ -84,4 +99,11 @@ main a {
 /* AMETRALLADORA */
 .ametralladora {
     width: 500px;
+}
+
+/* LORE */
+.slayer {
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
 }
