@@ -18,9 +18,15 @@ body {
 
 
 .logo-doom {
-    width: 25vw;
+    width: 450px;
     margin-bottom: 15vw;
     margin-top: 0.3vw;
+}
+@media (max-width: 450px) {
+    .logo-doom {
+        width: 100%;
+        margin-top: 5%;
+    }
 }
 
 
@@ -68,42 +74,42 @@ main a {
 
 /* ESCOPETA DE COMBATE */
 .baseshotgun {
-    width: 500px;
+    width: 200px;
 }
 
 /* CAÑON PESADO */
 .cañon {
-    width: 500px;
+    width: 200px;
 }
 
 /* RIFLE DE PLASMA */
 .plasma {
-    width: 500px;
+    width: 200px;
 }
 
 /* LANZACOHETES */
 .lanzacohete {
-    width: 500px;
+    width: 200px;
 }
 
 /* SUPER ESCOPETA */
 .supershotgun {
-    width: 500px;
+    width: 200px;
 }
 
 /* BALISTA */
 .balista {
-    width: 500px;
+    width: 200px;
 }
 
 /* AMETRALLADORA */
 .ametralladora {
-    width: 500px;
+    width: 200px;
 }
 
 /* LORE */
 .slayer {
-    width: 500px;
+    width: 200px;
     border-radius: 15px;
     box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
 }
