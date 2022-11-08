@@ -1,0 +1,54 @@
+/* BODY */
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: #ddd;
+}
+
+header {
+    background-image: url(../medios/losGods.jpg);
+    background-position: center top;
+    margin-top: 50px;
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+
+        .logo-doom {
+            width: 450px;
+            margin-bottom: 15vw;
+            margin-top: 0.3vw;
+        }
+    }
+}
+@media (max-width: 450px) {
+    .logo-doom {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+
+    .slayerMark {
+        width: 40px;
+        height: 60px;
+        padding: 15px 0 0;
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-family: 'Russo One', sans-serif;
+        padding: 0 10px 0 10px;
+        margin-top: 15px;
+    }
+    
+}
+
+main {
+    a {
+        text-decoration: none;
+        color: bisque;
+    }
+}

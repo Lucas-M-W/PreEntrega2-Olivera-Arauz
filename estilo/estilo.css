@@ -1,115 +1,65 @@
-body {
-    font-family:sans-serif;
-    background-color: black;
-    color: #ddd;
-}
-
-/* TOP */
-.losGods {
-    background-image:url(../medios/losGods.jpg) ;
-    background-position: center top;
-    margin-top: 50px;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-}
-
-
-.logo-doom {
-    width: 450px;
-    margin-bottom: 15vw;
-    margin-top: 0.3vw;
-}
-@media (max-width: 450px) {
-    .logo-doom {
-        width: 100%;
-        margin-top: 5%;
-    }
-}
-
-
-
-
-
-/* CONTENIDO */
-.titulo {
-    display: flex;
-    justify-content: center;
-}
-.slayerMark {
-    width: 40px;
-    height: 60px;
-    padding: 15px 0 0 0;
-    margin-bottom: 50px;
-}
-
-h1{
-    font-family: 'Russo One', sans-serif;
-    padding: 0 10px 0 10px;
-    margin-top: 15px;
-}
-main a {
-    text-decoration: none;
-    color:bisque;
-}
-
 /* FOOTER */
 .footer {
-    font-family: 'Russo One', sans-serif;
-    transition: 70ms;
+  font-family: "Russo One", sans-serif;
+  transition: 70ms;
 }
-
 .footer a:hover {
-    font-size: 115%;
-    transition: 70ms;
+  font-size: 115%;
+  transition: 70ms;
 }
-
 
 /* FORMULARIO */
 .formulario {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-/* ESCOPETA DE COMBATE */
-.baseshotgun {
-    width: 200px;
+/* BODY */
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: #ddd;
 }
 
-/* CAÑON PESADO */
-.cañon {
-    width: 200px;
+header {
+  background-image: url(../medios/losGods.jpg);
+  background-position: center top;
+  margin-top: 50px;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+}
+header .logo .logo-doom {
+  width: 450px;
+  margin-bottom: 15vw;
+  margin-top: 0.3vw;
 }
 
-/* RIFLE DE PLASMA */
-.plasma {
-    width: 200px;
+@media (max-width: 450px) {
+  .logo-doom {
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+.titulo .slayerMark {
+  width: 40px;
+  height: 60px;
+  padding: 15px 0 0;
+  margin-bottom: 50px;
+}
+.titulo h1 {
+  font-family: "Russo One", sans-serif;
+  padding: 0 10px 0 10px;
+  margin-top: 15px;
 }
 
-/* LANZACOHETES */
-.lanzacohete {
-    width: 200px;
+main a {
+  text-decoration: none;
+  color: bisque;
 }
 
-/* SUPER ESCOPETA */
-.supershotgun {
-    width: 200px;
-}
-
-/* BALISTA */
-.balista {
-    width: 200px;
-}
-
-/* AMETRALLADORA */
-.ametralladora {
-    width: 200px;
-}
-
-/* LORE */
-.slayer {
-    width: 200px;
-    border-radius: 15px;
-    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
-}
+/*# sourceMappingURL=estilo.css.map */
